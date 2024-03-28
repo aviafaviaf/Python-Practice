@@ -1,4 +1,6 @@
 from random import randint, choice
+import numpy as np
+from matplotlib import pyplot as plt
 
 PALETTE = [
     0x1D2B53,
