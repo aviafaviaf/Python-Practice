@@ -38,4 +38,4 @@ res = []
 for i in range(0, len(message_list), 2):
     res += decrypt(message_list[i:i + 2], KEY)
 
-''.join(map(chr, res))
+print(''.join(map(chr, res)))
